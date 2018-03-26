@@ -13,9 +13,9 @@ body {
   height: 48px;
   background-image: url('../images/MainHeroSprite.png');
   background-position: center;
-  animation: play 0.5s steps (3) infinite;
+  animation: play 0.5s steps(3) infinite;
 }
 
 @keyframes play {
-  100% {background-position: -145px;}
+  100% { background-position: -145px; }
 }
