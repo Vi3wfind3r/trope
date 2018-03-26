@@ -16,8 +16,7 @@ body {
 .sprite {
   width: 48px;
   height: 48px;
-  background-image: url('../images/MainHeroSprite.png');
-  background-position: center center;
+  background: url('../images/MainHeroSprite.png') left center;
   animation: play 0.5s steps(3) infinite;
 }
 
