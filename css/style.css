@@ -13,6 +13,6 @@ body {
   width: 48px;
   height: 48px;
   background: url("../images/MainHeroSprite.png") left center;
-  animation: play 0.5s steps(3) infinite; }
+  animation: play 1s steps(3) infinite; }
 
 /*# sourceMappingURL=style.css.map */
