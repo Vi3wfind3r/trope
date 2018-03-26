@@ -6,15 +6,14 @@
 body {
   background-color: lightgrey; }
 
+@keyframes play {
+  100% {
+    background-position: -145px; } }
 .sprite {
   width: 48px;
   height: 48px;
   background-image: url("../images/MainHeroSprite.png");
-  background-position: center;
-  animation: play 0.5s steps 3 infinite; }
-
-@keyframes play {
-  100% {
-    background-position: -145px; } }
+  background-position: center center;
+  animation: play 0.5s steps(3) infinite; }
 
 /*# sourceMappingURL=style.css.map */
