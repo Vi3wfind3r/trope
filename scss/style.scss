@@ -26,11 +26,18 @@ time, mark, audio, video {
   color: #ffffff; 
   font-weight: 800;
   margin: 100px 0 0 0;
+
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   background-color: black;
+}
+
+.text {
+  background-color: gray;
+  font-family: 'chinese';
+  src: url('SentyWEN2017.ttf')  format('truetype');
 }
 
 

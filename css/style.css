@@ -29,6 +29,11 @@ time, mark, audio, video {
 body {
   background-color: black; }
 
+.text {
+  background-color: gray;
+  font-family: 'chinese';
+  src: url("SentyWEN2017.ttf") format("truetype"); }
+
 @keyframes play {
   100% {
     background-position: -145px; } }
